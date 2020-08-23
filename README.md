@@ -1,2 +1,3 @@
-# Miscellaneous Trailhead practices
-- [SLDS](https://trailhead.salesforce.com/en/content/learn/modules/lightning_design_system) 
+### Miscellaneous Trailhead practices
+- [slds](https://trailhead.salesforce.com/en/content/learn/modules/lightning_design_system) 
+- [flexiAppsAuraCmps](https://trailhead.salesforce.com/en/content/learn/projects/workshop-lightning-programmatic?trail_id=lex_dev)
