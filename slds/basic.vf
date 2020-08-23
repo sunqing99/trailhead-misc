@@ -1,0 +1,67 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <title>Salesforce Lightning Design System Trailhead Module</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <!-- Import the Design System style sheet -->
+            <apex:slds />
+        </head>
+        <body>
+            <!-- REQUIRED SLDS WRAPPER -->
+            <div class="slds-scope">
+                <!-- MASTHEAD -->
+                <p class="slds-text-heading--label slds-m-bottom--small">
+                    Salesforce Lightning Design System Trailhead Module
+                </p>
+                <!-- / MASTHEAD -->
+                <!-- PRIMARY CONTENT WRAPPER -->
+                <div class="myapp">
+                    <!-- SECTION - BADGE COMPONENTS -->
+                    <section aria-labelledby="badges">
+                        <h2 id="badges" class="slds-text-heading--large slds-m-vertical_large">Badges</h2>
+                        <div>
+                            <span class="slds-badge">Badge</span>
+                            <span class="slds-badge slds-theme--inverse">Badge</span>
+                        </div>
+                    </section>
+                    <!-- / SECTION - BADGE COMPONENTS -->
+                </div>
+                <div class="slds-grid slds-m-vertical--large">
+                    <div class="slds-col slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_3-of-4">Column 1</div>
+                    <div class="slds-col slds-size_1-of-1 slds-small-size_1-of-2 slds-medium-size_1-of-4">Column 2</div>
+                </div>
+                <table class="slds-table slds-table_bordered slds-table_cell-buffer slds-no-row-hover">
+                    <thead>
+                        <tr class="slds-text-heading_label">
+                            <th scope="col">Account ID</th>
+                            <th scope="col">Account name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">123</th>
+                            <td>Account 1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">456</th>
+                            <td>Account 2</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <span class="slds-avatar slds-avatar_x-small">
+                    <img src="{!URLFOR($Asset.SLDS, 'assets/images/avatar1.jpg')}" alt="meaningful text" />
+                </span>
+                <span class="slds-icon_container  slds-icon-standard-account" title="description of icon when needed">
+                    <svg aria-hidden="true" class="slds-icon">
+                        <use xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/standard-sprite/svg/symbols.svg#account')}"></use>
+                    </svg>
+                    <span class="slds-assistive-text">Account Icon</span>
+                </span>
+                <!-- / PRIMARY CONTENT WRAPPER -->
+            </div>
+            <!-- / REQUIRED SLDS WRAPPER -->
+        </body>
+    </html>
+</apex:page>
